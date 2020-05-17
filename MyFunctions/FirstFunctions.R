@@ -10,7 +10,6 @@ above <- function(x, n = 10) {
       use <- x > n
       x[use]
 }
-<<<<<<< HEAD
 
 columnmean <- function(y, removeNA = TRUE) {
      nc <- ncol(y)
@@ -20,5 +19,5 @@ columnmean <- function(y, removeNA = TRUE) {
      }
      means
 }
-=======
->>>>>>> 103e97f12146de49996ddb7d468c991eff8aeb4c
+
+
